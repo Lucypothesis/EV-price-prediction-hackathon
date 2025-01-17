@@ -38,3 +38,9 @@
 - 실험: DecisionTree, RandomForest, GradientBoosting, LinearRegression, SVR, KNN, LightGBM, CatBoost, XGBoost
        비교 후 제일 성능 좋은 CatBoost(1.3845)로 설정
 - 결과: 1.0876433662 -> CatBoost 모델 사용하니 성능이 많이 오름
+
+
+240117-pred10: 0.9794726483	!!!
+- 가정: 없음
+- 실험: pred09와 같은 코드로 돌렸더니 LGBM이 RMSE 성능 가장 높게 나와서 이 값으로 제출해봄
+- 결과: 0.9794726483	-> 같은 코드라도 돌릴 때마다 모델 성능이 다르게 나오는듯하다.
